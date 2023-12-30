@@ -1,3 +1,8 @@
 <html>
     <body>Information site of 'warteschleife'</body>
+    <p>For our purpose, we're using an interrup-driven approach. The interrupt is raised on the rising as well as on the falling edge of the DCF77 signal. Additionally we use a free running timer.</p>
+    <p>So, we can detect rising and falling edges and we can determine the time that passed between these edges.</p>
+    <p>If we detect a rising edge, there are two actions possible depending on the time passed since the previous rising edge:</p>
+    <p>In case, 1 second passed, a simple second has been detected. We can shift the information.</p>
+    <p>In case, 2 seconds have passed, a minute has been completed. The shifted content is now valid and can be buffered.</p>
 </html>
