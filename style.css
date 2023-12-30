@@ -1,4 +1,15 @@
-.tableheader {
+.diary_header {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    font: normal 11px/1 arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 120%;
+    width: 700px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.header {
     padding-top: 3rem;
     padding-bottom: 0.5rem;
     font: normal 11px/1 arial, sans-serif;
@@ -10,7 +21,7 @@
     font-style: italic;
 }
 
-.description {
+.text {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     color: black;
@@ -18,61 +29,4 @@
     font-size: 1.4rem;
     line-height: 120%;
     width: 700px;
-}
-
-.tablestyle {
-    color: black;
-    font: normal 11px/1 arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 120%;
-    width: 700px;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
-}
-
-.policy {
-    font: normal 11px/1 arial, sans-serif;
-    font-size: 1.4rem;
-    line-height: 120%;
-    width: 700px;
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
-}
-
-.image {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.ov {
-    color: blue;
-    font-weight: 800;
-    font: normal 11px/1 arial, sans-serif;
-    line-height: 120%;
-    font-size: 1.4rem;
-}
-
-.container {
-    columns: 2;
-}
-
-.majorheading {
-    background-color: white;
-    font: bolder 11px/1 arial, sans-serif;
-    font-size: 5rem;
-    color: rgb(106, 104, 104);
-    vertical-align: middle;
-}
-
-.subheading {
-    font: bolder 11px/1 arial, sans-serif;
-    font-style: italic;
-    background-color: white;
-    color: rgb(106, 104, 104);
-    font-size: 3rem;
-    
-}
-
-.headline {
-    background-color: white;
 }
